@@ -9,7 +9,7 @@
 int main(void)
 {
 int number;
-for (number = 'p'; number < 'y'; number++)
+for (number = 0; number < 10; number++)
 {
 putchar(number);
 }
