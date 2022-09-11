@@ -9,14 +9,12 @@ int main(void)
 
 {
 char alphabet;
-
-for (alphabet = 122 ; alphabet >= 97; alphabet--)
+alphabet = 'z'
+while (alphabet >= 'a')
 {
-putchar(alphabet);
+putchar('alphabet');
+alphabet--;
 }
-
-putchar('\n');
-
 return (0);
 
 }
