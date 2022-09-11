@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	fprintf(2, "and that piece of art is useful\" - Dora Korpar, 015-10-19\n");
+	fprintf(2, "and that piece of art is useful\" - Dora Korpar, 015-10-19");
 	return (1);
 }
