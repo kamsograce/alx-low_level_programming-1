@@ -7,24 +7,14 @@
 int main(void)
 
 {
-char lower_case;
-char upper_case;
-
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+char lowerCase, upperCase;
+for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 {
-putchar(lower_case);
-}
-
-
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+putchar(lowerCase);
+for (upperCase = 'a'; upperCase <= 'z'; upperCase++)
 {
-putchar(upper_case);
+putchar(upperCase);
 }
-
-
-
-putchar ('\n');
-
+putchar('\n');
 return (0);
-
 }
