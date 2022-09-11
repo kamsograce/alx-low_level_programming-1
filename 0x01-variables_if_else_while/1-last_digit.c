@@ -9,28 +9,21 @@
  */
 int main(void)
 {
-int n, count;
+int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-  
-count = 0;
-while (n!= 0)
-{
-n = n/10;
-count++;
-}
 
-if (n[count - 1] > 5)
+if (n[n%10 - 1] > 5)
 {
-printf("Last digit of %d is greater than 5")
+printf("Last digit of %d is greater than 5", n)
 }
-else if (n[count - 1] == 0)
+else if (n[n%10 - 1] == 0)
 {
-printf("Last digit of %d is 0")
+printf("Last digit of %d is 0",n)
 }
 else
 {
-printf("Last digit of %d is less than 6 and not 0")
+printf("Last digit of %d is less than 6 and not 0",n)
 }
 return (0);
 }
