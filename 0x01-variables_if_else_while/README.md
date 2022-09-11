@@ -1,1 +1,1 @@
-My readme file for task 0x01-variables_if_else_while
+This directory answers all questions for ALX's 0x01. C - Variable, if, else, while.
