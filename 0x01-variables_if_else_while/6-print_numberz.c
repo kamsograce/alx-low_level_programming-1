@@ -11,6 +11,6 @@ int main(void)
 char character;
 character = 0;
 while (character < 10);
-putchar("%d", character);
+putchar(character);
 return (0);
 }
