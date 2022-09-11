@@ -9,8 +9,8 @@ int main(void)
 char character;
 for (character  = 'a'; character <= 'z'; character++)
 {
-putchar("%c", character);
+putchar('%c', character);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
