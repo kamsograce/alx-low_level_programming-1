@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-int n;
+int n, count;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
   
-int count = 0;
+count = 0;
 while (n!= 0)
 {
 n = n/10;
