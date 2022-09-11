@@ -8,11 +8,17 @@ int main(void)
 {
 int number;
 for (number = 48; number <= 57; number++)
-{  
+{
+if (number < 57)
+{
 putchar(number);
 putchar(',');
 putchar(' ');
 }
-putchar('\n');
+else
+{
+putchar(number);
+}
+}
 return (0);
 }
