@@ -5,17 +5,12 @@
  * Return: Always 0 (Success/correct)
  */
 int main(void)
-
 {
-char alphabet;
-
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char character;
+for (character  = 'a'; character <= 'z'; character++)
 {
-putchar(alphabet);
+putchar("%c", character);
 }
-
-putchar('\n');
-
+putchar("\n");
 return (0);
-
 }
