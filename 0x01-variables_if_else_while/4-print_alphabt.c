@@ -8,21 +8,14 @@
 int main(void)
 
 {
-char alphabet;
-
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char character;
+for (character  = 'a'; character <= 'z'; character++)
 {
-if (alphabet == 'q')
-continue;
-
-else if (alphabet == 'e')
-continue;
-
-putchar(alphabet);
+if (char != 'q' || char != 'e')
+{
+putchar(character);
 }
-
+}
 putchar('\n');
-
 return (0);
-
 }
