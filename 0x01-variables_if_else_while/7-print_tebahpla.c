@@ -12,9 +12,10 @@ char alphabet;
 alphabet = 'z';
 while (alphabet >= 'a')
 {
-putchar('alphabet\n');
+putchar(alphabet);
 alphabet--;
 }
+putchar('\n')
 return (0);
 
 }
