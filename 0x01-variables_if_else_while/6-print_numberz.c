@@ -9,10 +9,10 @@
 int main(void)
 {
 int number;
-number = '0';
-while (number < '10')
+number = 0;
+while (number < 10)
 {
-putchar('number');
+putchar(number);
 number++;
 }
 putchar('\n')
