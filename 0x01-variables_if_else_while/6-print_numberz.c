@@ -8,9 +8,9 @@
 
 int main(void)
 {
-int character;
-character = 0;
-while (character < 10);
-putchar(character);
+int number;
+number = 0;
+while (number < 10);
+putchar(number);
 return (0);
 }
