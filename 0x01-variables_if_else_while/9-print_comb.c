@@ -10,8 +10,6 @@ int number;
 for (number = 0; number < 10; number++)
 {
 putchar(number);
-putchar(',');
-putchar(' ');
 }
 putchar('\n');
 return (0);
