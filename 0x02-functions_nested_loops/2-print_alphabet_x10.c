@@ -5,7 +5,7 @@
  * Description: prints a-z 10 times
  */
 
-void print_alphabet_x10
+void print_alphabet_x10()
 {
 char alphabet;
 int count = 0;
