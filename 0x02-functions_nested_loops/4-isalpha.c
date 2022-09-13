@@ -1,5 +1,7 @@
 /*
- * File: 4-isalpha.c                                               * Author: Oluwagbeminiyi Samagbeyi                                */ 
+ * File: 4-isalpha.c
+ * Author: Oluwagbeminiyi Samagbeyi
+ */ 
 
 #include "main.h"
 
