@@ -1,11 +1,8 @@
-/**
- * File: 3-islower.c
- * Auth: Oluwagbeminiyi Samagbeyi
- */
 #include "main.h"
 /**
- * _islower - Return 1 if letter is lowercase, 0 if not.
+ * i_islower - checks if the argument is in lower case
  * @c: char type
+ * Description: checks for lowercase and return value
  * Return: 1 if lowercase, 0 if not lowercase.
  */
 
