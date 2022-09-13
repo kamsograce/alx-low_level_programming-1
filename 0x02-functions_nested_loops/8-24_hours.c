@@ -1,38 +1,40 @@
 #include "main.h"
 /**
- * 24_hours - displays time
+ * jack_bauer - displays time
  * @void: no argument to be passed 
  *
  * Description: prints time form "00:00" to "23:59"
  * Return: 0 Always
  */
-
-int hour, minute;
-
-void time_24(void)
-{
-	_putchar(hour);
-	_putchar(':' + '0'); 
-	_putchar(minute);
-	_putchar('\n' + '0');
-	return;
-}
-
 void jack_bauer(void)
 {
-	hour = 0;
-	minute = 0;
-
-	while (hour < 24)
+	int second = 0, w = 0, x = 0, y = 0, z =0;
+	while (second < 1440)
 	{
-		time_24();
-		hour++;
-		while (minute < 60)
+		_putchar(w + '0');
+		_putchar(x + '0'); 
+		_putchar(':'); 
+		_putchar(y + '0');
+		_putchar(z + '0');
+		_putchar('\n');
+
+		z++;
+		if (z > 9)
 		{
-			time_24();
-			minute++;
+			y++;
+			z = 0;
 		}
-		minute = 0;
+		if (y > 5)
+		{
+			x++;
+			y = 0;
+		}
+		if (x > 9)
+		{
+			w++;
+			x = 0;
+		}
+		second++;
 	}
 	return;
 }
