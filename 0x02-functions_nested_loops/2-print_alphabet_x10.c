@@ -4,7 +4,7 @@
  * followed by a new line
  * Return - void.
  */
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 char alphabet;
 int count = 0;
@@ -17,7 +17,7 @@ _putchar(alphabet);
 alphabet++;
 }
 _putchar('\n');
-count += 1;
+count++;
 }
 return;
 }
