@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * main - entry
  *
  * Description: prints a-z 10 times
