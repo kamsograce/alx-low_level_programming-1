@@ -1,4 +1,5 @@
-/*                                                                 * File: 4-isalpha.c                                               * Author: Oluwagbeminiyi Samagbeyi                                */ 
+/*
+ * File: 4-isalpha.c                                               * Author: Oluwagbeminiyi Samagbeyi                                */ 
 
 #include "main.h"
 
@@ -16,4 +17,3 @@ return (1);
 else
 return (0);
 }	
-
