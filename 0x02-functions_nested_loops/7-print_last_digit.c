@@ -15,6 +15,6 @@ else
 x = x * -1;
 
 lastDigit = x % 10;
-_putchar('0' + lastDigit);
+_putchar(lastDigit + '0');
 return (lastDigit);
 }
