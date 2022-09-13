@@ -1,5 +1,8 @@
+/**
+ * File: 3-islower.c
+ * Auth: Oluwagbeminiyi Samagbeyi
+ */
 #include "main.h"
-
 /**
  * main - check if character is lowercase
  *
