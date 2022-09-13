@@ -1,10 +1,11 @@
 #include "main.h"
 /*
- * main - print 10 times the alphabet
+ * main - print 10 times the alphabet 
  * followed by a new line
+ *
  * Return - void.
  */
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 char alphabet;
 int count = 0;
