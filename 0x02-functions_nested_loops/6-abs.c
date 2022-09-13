@@ -8,7 +8,7 @@
  * @int: the integer to be computed
  * Return: Always 0.
  */
-int _abs(x)
+int _abs(int x)
 {
 if (x >= 0)
 return (x);
