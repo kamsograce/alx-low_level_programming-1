@@ -1,22 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - entry point
- *
- * Return: Always 0 (Success/correct)
+ * main - prints the string "_putchar"
+ * followed by a new line.
+ * Return: Always 0.
  */
-void print_alphabet(void);
 
-int main()
+int main(void)
 {
-	print_alphabet();
-	putchar('\n');
-	return (0);
-}	
+char string[] = "_putchar";
+int index;
 
-void print_alphabet(void)
-{
-	int number;
-	for(number =  97; number <= 122; number++)
-		putchar(number);
-	return;
+for(index = 0; index <= 7; index++)
+_putchar(string[index]);
+_putchar('\n');
+return (0);
 }
