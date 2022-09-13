@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * main - entry
+ * print_alphabet_x10 - Prints "a-z"
  *
  * Description: prints a-z 10 times
- *
  * Return: void
  */
 
