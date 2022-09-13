@@ -9,7 +9,7 @@ void print_alphabet(void);
 int main()
 {
 	print_alphabet();
-	putchar('/n');
+	putchar('\n');
 	return (0);
 }	
 
