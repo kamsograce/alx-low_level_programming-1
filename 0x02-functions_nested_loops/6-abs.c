@@ -1,10 +1,9 @@
-/*
- * File: 6-abs.c
- * Author: Oluwagbeminiyi Samagbeyi
- */
 #include "main.h"
 /**
- * main: computes the absolute value of an integer
+ * _abs - computes the absolute value of an integer
+ * @x: an integer
+ *
+ * Description: computes the absolute value
  * Return: Always 0.
  */
 int _abs(int x)
