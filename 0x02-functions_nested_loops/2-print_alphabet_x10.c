@@ -7,6 +7,8 @@
  * Description: function returns void and
  * has no argument
  */
+
+/*Our function uses while loop to achieve the result*/
 void print_alphabet_x10(void)
 {
 char alphabet;
