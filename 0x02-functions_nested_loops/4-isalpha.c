@@ -1,11 +1,12 @@
+/*                                                                 * File: 4-isalpha.c                                               * Author: Oluwagbeminiyi Samagbeyi                                */ 
+
 #include "main.h"
 
 /**
  * _isalpha: checks for alphabetic character
  * @c: an integer character
  *
- * Description: checks for alphabetic character
- * and returns 1 if c is a letter, 0 otherwise
+ * return: returns 1 if c is a letter, 0 otherwise
  */
 
 int _isalpha(int c)
