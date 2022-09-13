@@ -1,3 +1,7 @@
+/*
+ * File: 3-islower.c
+ * Auth: Oluwagbeminiyi Samagbeyi
+ */
 #include "main.h"
 /*
  * main - print 10 times the alphabet
