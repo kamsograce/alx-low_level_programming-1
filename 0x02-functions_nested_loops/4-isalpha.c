@@ -1,12 +1,8 @@
-/*
- * File: 4-isalpha.c
- * Author: Oluwagbeminiyi Samagbeyi
- */
 #include "main.h"
 /**
- * _isalpha: checks for alphabetic character
+ *  _isalpha: checks for alphabetic character
  * @c: an integer character
- *
+ * Description: checks for alphabets upper/lowercase
  * return: returns 1 if c is a letter, 0 otherwise
  */
 
