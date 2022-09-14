@@ -6,6 +6,7 @@
  * Description: prints n times table, starting from 0
  * Return: returns void
  */
+int value; 
 
 void output_tens(void)
 {
@@ -34,7 +35,6 @@ void output_hundred(void)
 }
 void print_times_table(int n)
 {
-	int value;
 	int line_counter = 0, multiplier = 0, number = 0;
 	
 	if (n > 15 || n < 0)
