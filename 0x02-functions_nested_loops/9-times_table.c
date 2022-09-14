@@ -8,9 +8,8 @@
  */
 void times_table(void)
 {
-	int value;
-
-	int line_counter = 0, multiplier = 0, number = 0;
+	int value, line_counter = 0, multiplier = 0, number = 0;
+	
 	while (value <= 72)
 	{
 		while (line_counter <= 9) /*to make it 10 in a row*/
