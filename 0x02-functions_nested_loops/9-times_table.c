@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * times_table - 9 times multiplication table
+ * times_table - prints the 9 times multiplication table
  * @void: no arguments
  *
  * Description: 9 times table, starting from 0.
@@ -8,8 +8,9 @@
  */
 void times_table(void)
 {
-	int value, line_counter = 0, multiplier = 0, number = 0;
-	
+	int value;
+	int line_counter = 0, multiplier = 0, number = 0;
+
 	while (value <= 72)
 	{
 		while (line_counter <= 9)
