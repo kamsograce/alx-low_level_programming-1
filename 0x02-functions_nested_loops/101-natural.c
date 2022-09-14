@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int start, sum = 0;	
+	int start, sum = 0;
 	
 	for (start = 0; start < 1024; start++)
 	{
