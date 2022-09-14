@@ -12,7 +12,7 @@ void times_table(void)
 	
 	while (value <= 72)
 	{
-		while (line_counter <= 9) /*to make it 10 in a row*/
+		while (line_counter <= 9)
 		{
 			value = number * multiplier;
 			if (line_counter == 0)
