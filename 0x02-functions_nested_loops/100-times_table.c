@@ -10,47 +10,51 @@ void print_times_table(int n)
 {
 	int value;
 	int line_counter = 0, multiplier = 0, number = 0;
-
-	while (value <= ((n*n) - n))
+	
+	if (n > 15 || n < 0);
+	else
 	{
-		while (line_counter <= n)
+		while (value <= ((n*n) - n))
 		{
-			value = number * multiplier;
-			if (line_counter == 0)
+			while (line_counter <= n)
 			{
-				_putchar(value + '0');
-			}
-			else
-				if (value > 99)
+				value = number * multiplier;
+				if (line_counter == 0)
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar((value / 100) + '0');
-					_putchar((value / 10) % 10 + '0' );
-					_putchar((value % 10) + '0');
-				}
-				else if (value < 10)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(value + '0');
 				}
-				else 
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar((value / 10) + '0');
-					_putchar((value % 10) + '0');
-				}
-			number++;
-			line_counter++;
+				else
+					if (value > 99)
+					{
+						_putchar(',');
+						_putchar(' ');
+						_putchar((value / 100) + '0');
+						_putchar((value / 10) % 10 + '0' );
+						_putchar((value % 10) + '0');
+					}
+					else if (value < 10)
+					{
+						_putchar(',');
+						_putchar(' ');
+						_putchar(' ');
+						_putchar(' ');
+						_putchar(value + '0');
+					}
+					else 
+					{
+						_putchar(',');
+						_putchar(' ');
+						_putchar(' ');
+						_putchar((value / 10) + '0');
+						_putchar((value % 10) + '0');
+					}
+				number++;
+				line_counter++;
+			}
+			_putchar('\n');
+			line_counter = 0;
+			multiplier++;
+			number = 0;
 		}
-		_putchar('\n');
-		line_counter = 0;
-		multiplier++;
-		number = 0;
 	}
 }
