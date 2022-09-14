@@ -1,20 +1,21 @@
 #include "main.h"
 /**
- * print_last_digit - computes value of last digit
- * @x: integer value to be tested
- *
- * Description: using modulus operator, then print
- * Return: returns value of last digit
+ * print_last_digit - Prints the last digit of a number
+ * @n: The number to be treated
+ * Return: Value of the last digit of number
  */
-int print_last_digit(int x)
+int print_last_digit(int n)
 {
-int lastDigit;
-if (x > 0)
-;
-else
-x = x * -1;
+int last;
 
-lastDigit = x % 10;
-_putchar(lastDigit + '0');
-return (lastDigit);
+last = n % 10;
+
+if (last < 0)
+{
+last = last * -1;
+}
+
+_putchar(last + '0');
+
+return(last + '0')
 }
