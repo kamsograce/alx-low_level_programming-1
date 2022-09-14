@@ -12,25 +12,28 @@ void times_table(void)
 	int line_counter = 0, multiplier = 0, number = 0;
 	while (value <= 72)
 	{
-		while(line_counter <= 9)
+		while(line_counter <= 9) /*to make it 10 in a row*/
 		{
 			value = number * multiplier;
-			if (value == 0)
-				_putchar(value + '0');
-			else if (value < 10 && value != 0)
+			if (line_counter == 0)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(value + '0');
+				_putchar(value + '0'); 
 			}
-			else
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar((value / 10) + '0');
-				_putchar((value % 10) + '0');
-			}
+			else	
+				if (value < 10)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(value + '0');
+				}
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar((value / 10) + '0');
+					_putchar((value % 10) + '0');
+				}
 			number++;
 			line_counter++;
 		}
