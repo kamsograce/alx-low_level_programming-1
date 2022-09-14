@@ -76,3 +76,4 @@ void output_hundred(void)
 	_putchar((value / 100) + '0');
 	_putchar((value / 10) % 10 + '0');
 	_putchar((value % 10) + '0');
+}
