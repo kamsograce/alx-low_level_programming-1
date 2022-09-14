@@ -51,7 +51,8 @@ void print_times_table(int n)
 	}
 }
 void output_tens(void)
-{	int value;
+{	
+	int value;
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
@@ -59,14 +60,15 @@ void output_tens(void)
 	_putchar((value % 10) + '0');
 }
 void output_unit(void)
-{	int value;
+{	
+	int value;
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
 	_putchar(' ');
 	_putchar(value + '0');
 }
-void output_hundred(void
+void output_hundred(void)
 {	
 	int value;
 	_putchar(',');
