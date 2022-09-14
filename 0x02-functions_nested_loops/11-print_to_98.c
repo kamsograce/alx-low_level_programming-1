@@ -13,7 +13,8 @@ void print_to_98(int n)
 	
 	callNumber = n;
 	printf("%d", callNumber);
-	if (callNumber == 98);
+	if (callNumber == 98)
+		;
 	else if (callNumber < 98)
 	{
 		while (callNumber < 98)
