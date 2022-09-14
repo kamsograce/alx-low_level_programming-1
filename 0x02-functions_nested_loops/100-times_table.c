@@ -9,8 +9,8 @@
 
 void print_times_table(int n)
 {
-	int line_counter = 0, multiplier = 0, number = 0, value;
-	
+	int line_counter = 0, multiplier = 0, number = 0, value = 0;
+
 	if (n > 15 || n < 0)
 		;
 	else if (n == 0)
@@ -51,21 +51,25 @@ void print_times_table(int n)
 	}
 }
 void output_tens(void)
-{	_putchar(',');
+{	int value;
+	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
 	_putchar((value / 10) + '0');
 	_putchar((value % 10) + '0');
 }
 void output_unit(void)
-{	_putchar(',');
+{	int value;
+	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
 	_putchar(' ');
 	_putchar(value + '0');
 }
-void output_hundred(void)
-{	_putchar(',');
+void output_hundred(void
+{	
+	int value;
+	_putchar(',');
 	_putchar(' ');
 	_putchar((value / 100) + '0');
 	_putchar((value / 10) % 10 + '0');
