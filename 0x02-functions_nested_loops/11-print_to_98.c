@@ -10,8 +10,8 @@
 void print_to_98(int n)
 {
 	int callNumber;
-	
 	callNumber = n;
+	
 	printf("%d", callNumber);
 	if (callNumber == 98)
 		;
