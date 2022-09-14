@@ -6,12 +6,39 @@
  * Description: prints n times table, starting from 0
  * Return: returns void
  */
+
+void output_tens(void)
+{
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
+	_putchar((value / 10) + '0');
+	_putchar((value % 10) + '0');
+}
+
+void output_unit(void)
+{
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
+	_putchar(' ');
+	_putchar(value + '0');
+}
+
+void output_hundred(void)
+{
+	_putchar(',');
+	_putchar(' ');
+	_putchar((value / 100) + '0');
+	_putchar((value / 10) % 10 + '0');                                                                                                                   _putchar((value % 10) + '0'); 
+}
 void print_times_table(int n)
 {
 	int value;
 	int line_counter = 0, multiplier = 0, number = 0;
 	
-	if (n > 15 || n < 0);
+	if (n > 15 || n < 0)
+		;
 	else if (n == 0)
 	{
 		_putchar('0');
@@ -19,7 +46,7 @@ void print_times_table(int n)
 	}
 	else
 	{
-		while (value <= ((n*n) - n))
+		while (value <= ((n * n) - n))
 		{
 			while (line_counter <= n)
 			{
@@ -31,27 +58,15 @@ void print_times_table(int n)
 				else
 					if (value > 99)
 					{
-						_putchar(',');
-						_putchar(' ');
-						_putchar((value / 100) + '0');
-						_putchar((value / 10) % 10 + '0' );
-						_putchar((value % 10) + '0');
+						output_hundred();
 					}
 					else if (value < 10)
 					{
-						_putchar(',');
-						_putchar(' ');
-						_putchar(' ');
-						_putchar(' ');
-						_putchar(value + '0');
+						output_unit();
 					}
 					else 
 					{
-						_putchar(',');
-						_putchar(' ');
-						_putchar(' ');
-						_putchar((value / 10) + '0');
-						_putchar((value % 10) + '0');
+						output_tens();
 					}
 				number++;
 				line_counter++;
