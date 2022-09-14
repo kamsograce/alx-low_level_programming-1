@@ -17,5 +17,5 @@ last = last * -1;
 
 _putchar(last + '0');
 
-return(last + '0')
+return(last + '0');
 }
