@@ -3,7 +3,7 @@
 /**
  * print_to_98 - print values from n to 98
  * @n: The first value
- * 
+ *
  * Description: prints from n to 98, followed by a new line
  * Return: void
  */
