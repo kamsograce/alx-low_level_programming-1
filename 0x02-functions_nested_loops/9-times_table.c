@@ -1,10 +1,10 @@
 #include "main.h"
-/*
+/**
  * times_table - prints the 9 times multiplication table
  * @void: no arguments
  *
- * Description: 9 times table, starting from 0.
- * Return: void
+ * Description: prints 9 times table, starting from 0
+ * Return: returns void
  */
 void times_table(void)
 {
