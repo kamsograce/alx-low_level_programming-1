@@ -12,3 +12,6 @@ int add(int, int);
 int print_last_digit(int);
 void print_to_98(int n);
 void print_times_table(int n);
+void output_hundred();
+void output_unit();
+void output_tens();  
