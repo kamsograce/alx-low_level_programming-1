@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - prints the n times multiplication table
+ * print_times_table - of type void, prints n times table
  * @n: stop at n
  *
  * Description: prints n times table, starting from 0
@@ -12,6 +12,8 @@ void print_times_table(int n)
 	int line_counter = 0, multiplier = 0, number = 0;
 	
 	if (n > 15 || n < 0);
+	else if (n == 0)
+		_putchar(n, '0');
 	else
 	{
 		while (value <= ((n*n) - n))
