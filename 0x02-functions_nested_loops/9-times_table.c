@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * times_table - multiplication table
+ * times_table - 9 times multiplication table
  * @void: no arguments
  *
  * Description: 9 times table, starting from 0.
@@ -10,16 +10,17 @@ void times_table(void)
 {
 	int value;
 	int line_counter = 0, multiplier = 0, number = 0;
+	
 	while (value <= 72)
 	{
-		while(line_counter <= 9) /*to make it 10 in a row*/
+		while (line_counter <= 9) /*to make it 10 in a row*/
 		{
 			value = number * multiplier;
 			if (line_counter == 0)
 			{
-				_putchar(value + '0'); 
+				_putchar(value + '0');
 			}
-			else	
+			else
 				if (value < 10)
 				{
 					_putchar(',');
