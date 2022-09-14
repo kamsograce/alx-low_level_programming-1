@@ -14,9 +14,9 @@ int main()
 	for (start = 0; start < 1024; start++)
 	{
 		if (start % 3 == 0 || start % 5 == 0)
-			sum += start
+			sum += start;
 	}
-	printf("%d\n", sum)
+	printf("%d\n", sum);
 	return(0);
 }
 
