@@ -18,7 +18,7 @@ void print_to_98(int n)
 	{
 		while (callNumber < 98)
 		{
-			callNumber++i;
+			callNumber++;
 			printf(", %d", callNumber);
 		}
 
