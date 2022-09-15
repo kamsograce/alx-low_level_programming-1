@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _isupper - type void.
+ * _isupper - type int.
  * @c: character to check.
  *
  * Description - checks if character is an uppercase alphabet.
@@ -10,7 +10,7 @@
 
 int _isupper(int c)
 {
-	if (c > 64 && c < 91)
+	if (65 <= c <= 90)
 	{
 		return (1);
 	}
