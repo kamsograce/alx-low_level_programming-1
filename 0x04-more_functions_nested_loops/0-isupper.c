@@ -1,9 +1,10 @@
 #include "main.h"
 
 /*
- * _isupper - checks for uppercase characters.
+ * _isupper - type void.
  * @c: character to check.
  *
+ * Description - checks if character is an uppercase alphabet.
  * Return: 1 if uppercase, 0 otherwise.
  */
 
