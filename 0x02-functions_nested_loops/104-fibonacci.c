@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - print the first 98 fibonacci numbers
+ * main - type int, print the first '98' fibonacci
  * @void: void argument
  *
  * Description: prints the numbers, followed by a new line
@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%lu, ", a);
 	printf("%lu", b);
-	while (count <= 96)
+	while (count <= 95)
 	{
 		printf(", ");
 		c = a + b;
