@@ -1,23 +1,28 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - print the sum of all multiples of 3 or 5
+ * main - print the sum of even fibonacci numbers < 4,000,000
  * @void: void argument
  *
- * Description: prints the sum, followed by a new line
- * Return: void
+ * Description: print sum, followed by a new line
+ * Return: 0 Always
  */
 
 int main(void)
 {
-	int start, sum = 0;
+	int a = 1, b = 2, c, sum = 2;
 
-	for (start = 0; start < 1024; start++)
+	while (c <= 4000000)
 	{
-		if (start % 3 == 0 || start % 5 == 0)
-			sum += start;
+		c = a + b;
+		a = b;
+		b = c;	
+		if (c % 2 == 0)
+			sum += c;
+		printf("%u", sum);
 	}
-	printf("%d\n", sum);
+	printf("\n");
 	return (0);
+
 }
 
