@@ -1,5 +1,4 @@
 #include "main.h"
-
 /*
  * _isupper - type int.
  * @c: character to check.
