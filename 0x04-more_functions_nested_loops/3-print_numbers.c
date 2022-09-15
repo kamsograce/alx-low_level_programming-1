@@ -13,5 +13,4 @@ void print_numbers(void)
 
 	for(character = 48; character <= 57; character++)
 		_putchar(character);
-	_putchar('\n');
 }
