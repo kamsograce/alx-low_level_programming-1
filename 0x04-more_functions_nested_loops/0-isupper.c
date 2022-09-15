@@ -4,13 +4,13 @@
  * _isupper - type int.
  * @c: character to check.
  *
- * Description - checks if character is an uppercase alphabet.
+ * Description: checks if character is an uppercase alphabet.
  * Return: 1 if uppercase, 0 otherwise.
  */
 
 int _isupper(int c)
 {
-	if (65 <= c <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
