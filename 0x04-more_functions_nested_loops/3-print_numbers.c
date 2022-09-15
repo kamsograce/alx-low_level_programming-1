@@ -1,6 +1,5 @@
 #include "main.h"
-
-/*
+/**
  * print_numbers - type void.
  * @void: no argument required
  * 
