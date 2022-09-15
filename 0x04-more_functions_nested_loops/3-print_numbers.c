@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * mul - type void.
+ * print_numbers - type void.
  * @void: no argument required
  * 
  * Description: prints numbers 0 to 9.
