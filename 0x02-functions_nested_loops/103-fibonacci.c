@@ -16,12 +16,11 @@ int main(void)
 	{
 		c = a + b;
 		a = b;
-		b = c;	
+		b = c;
 		if (c % 2 == 0)
 			sum += c;
-		printf("%u", sum);
 	}
-	printf("\n");
+	printf("%d\n", sum);
 	return (0);
 
 }
