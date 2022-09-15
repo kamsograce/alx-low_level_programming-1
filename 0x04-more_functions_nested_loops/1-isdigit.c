@@ -10,6 +10,5 @@
 
 int _isdigit(int c)
 {
-	if (c > 46 && c < 58)
-		return (1);
+	return (c > 46 && c < 58)
 }
