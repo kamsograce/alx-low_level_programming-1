@@ -14,7 +14,7 @@ void print_times_table(int n)
 		return;
 	while (check <= n)
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0, j = 0; i < n; j++)
 			k = i * j;
 		if (k > 99)
 		{
