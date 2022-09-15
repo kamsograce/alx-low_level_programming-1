@@ -8,12 +8,12 @@
 
 int main(void)
 {
-  char string[] = "_putchar";
-  int index;
+	char string[] = "_putchar";
+	int index;
 
-  for (index = 0; index <= 7; index++)
-    _putchar(string[index]);
-  _putchar('\n');
+	for (index = 0; index <= 7; index++)
+   		 _putchar(string[index]);
+  	_putchar('\n');
   
   return (0);
 }
