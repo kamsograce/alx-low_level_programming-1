@@ -1,9 +1,7 @@
 #include "main.h"
 /**
- * more_numbers - type void.
- * @void: no argument required
- * 
- * Description: prints numbers 0 to 14 ten times.
+ * more_numbers - print 0-14 10x
+ *
  * Return: returns void
  */
 
