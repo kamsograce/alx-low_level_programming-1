@@ -13,7 +13,7 @@ int main(void)
 	long int a = 1, b = 2, c;
 	int count = 2;
 
-	printf("%lu, ",a);
+	printf("%lu, ", a);
 	printf("%lu", b);
 	while (count <= 49)
 	{
