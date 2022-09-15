@@ -1,11 +1,10 @@
 #include "main.h"
-
-/*
+/**
  * print_most_numbers - type void.
  * @void: no argument required
  * 
  * Description: prints 0 to 9 except 2 & 4.
- * Return: void
+ * Return: returns void
  */
 
 void print_most_numbers(void)
