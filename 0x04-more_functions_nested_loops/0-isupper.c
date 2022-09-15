@@ -4,8 +4,8 @@
  * _isupper - type int.
  * @c: character to check.
  *
- * Description: checks if character is an upper.
- * Return: returns 1 if uppercase, 0 otherwise.
+ * Description: check fr upper.
+ * Return: returns 1 or 0.
  */
 
 int _isupper(int c)
