@@ -1,11 +1,10 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - print the sum of all multiples of 3 or 5
  * @void: void argument
  *
  * Description: prints the sum, followed by a new line
- * Return: void
+ * Return: 0 Always
  */
 
 int main(void)
@@ -20,4 +19,3 @@ int main(void)
 	printf("%d\n", sum);
 	return (0);
 }
-
