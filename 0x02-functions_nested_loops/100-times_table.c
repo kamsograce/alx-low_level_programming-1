@@ -38,7 +38,7 @@ void print_times_table(int n)
 		{
 			_putchar(k + '0');
 		}
-		if (y != n)
+		if (k != n)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -47,4 +47,4 @@ void print_times_table(int n)
 	check++;
 	_putchar('\n');	
 	}
-
+}
