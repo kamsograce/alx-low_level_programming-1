@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_most_numbers - type void.
+ * print_most_numbers - void
  * @void: no argument required
  * 
- * Description: prints 0 to 9 except 2 & 4.
+ * Description: prints 0 to 9
  * Return: returns void
  */
 
