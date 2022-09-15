@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /*
- * print_size - type void.
- * @size: size of the square
+ * main - type int.
+ * @void: no argument required
  * 
- * Description: prints a square, then a new line
+ * Description: print 1 - 100, if a multiple
+ * of 3, print Fizz, a multiple of 5, print Buzz
+ * else, print the number.
  * Return: void.
  */
 
@@ -18,7 +20,7 @@ int main()
 		else if (i % 5 == 0)
 			printf("Buzz");
 		else if (i % 15 == 0)
-			printf("FIzzBuzz");
+			printf("FizzBuzz");
 		else
 			printf("%i", i);
 		printf(" ");
