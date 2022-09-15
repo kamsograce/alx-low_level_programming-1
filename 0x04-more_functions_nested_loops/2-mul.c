@@ -1,6 +1,5 @@
 #include "main.h"
-
-/*
+/**
  * mul - type int.
  * @a: the multiplicand
  * @b: the multiplier
@@ -10,6 +9,5 @@
 
 int mul(int a, int b)
 {
-		return (a * b);
-
+	return (a * b);
 }
