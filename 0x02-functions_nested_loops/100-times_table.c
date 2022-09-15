@@ -8,16 +8,15 @@
  */ 
 void print_times_table(int n)
 {
-	int i, j, k, check = 0;
+	int i, j, k;
 
 	if (n > 15 || n < 0)
 		return;
-	while(k != n * n)
+	while (i <= n)
 	{
-		while (check <= n)
+		for (j = 0; j <= n; j++)
 		{
-			for (i = 0, j = 0; j < n; j++)
-				k = i * j;
+			k = i * j;
 			if (k > 99)
 			{
 				_putchar(k / 100 + '0');
@@ -45,8 +44,8 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
-		check++;
 		}
-	_putchar('\n');	
 	}
+	_putchar('\n');	
+	x++;
 }
