@@ -13,7 +13,7 @@ void print_diagonal(int n)
 	int count, counter;
 
 	if (n <= 0)
-		_putchar('\n');
+		;
 	else
 	{
 		_putchar(92);
