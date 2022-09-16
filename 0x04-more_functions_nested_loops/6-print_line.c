@@ -1,10 +1,9 @@
 #include "main.h"
 
-/*
- * print_line - type void.
+/**
+ * print_line - print the character '_', then a new line.
  * @n: number of times character should be printed
- *
- * Description: print the character '_', then a new line
+ * Description: Print character, the new line.
  * Return: void.
  */
 
