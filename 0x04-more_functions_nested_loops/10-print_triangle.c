@@ -13,18 +13,23 @@ void print_triangle(int size)
 	 *j stands for the start j of space/# for loops
 	 *k is used to determine the number of spaces
 	 */
-	for (i = 1; i <= size; i++)
+	if (size <= 0)
+		_putchar('\n');
+	else
 	{
-		k = size - i;
-		for (j = 0; j < k; j++)	/*to print spaces*/
+		for (i = 1; i <= size; i++)
 		{
-			_putchar(32);
+			k = size - i;
+			for (j = 0; j < k; j++)	/*to print spaces*/
+			{
+				_putchar(32);
+			}
+			for (j = 0; j < i; j++)	/*to print #*/
+			{
+				_putchar(35);
+			}
+			_putchar("\n");
 		}
-		for (j = 0; j < i; j++)	/*to print #*/
-		{
-			_putchar(35);
-		}
-		_putchar("\n");
 	}
 	return (0);
 }
