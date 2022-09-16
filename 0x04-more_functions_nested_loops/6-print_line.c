@@ -3,13 +3,11 @@
 /**
  * print_line - print the character '_', then a new line.
  * @n: number of times character should be printed
- * Description: Print character, the new line.
- * Return: void.
  */
 
 void print_line(int n)
 {
-	int count = 0;
+	int count = 1;
 
 	if (n <= 0)
 		;
@@ -20,7 +18,6 @@ void print_line(int n)
 			_putchar(95);
 			count++;
 		}
-		_putchar('\n');
 	}
 	_putchar('\n');
 }
