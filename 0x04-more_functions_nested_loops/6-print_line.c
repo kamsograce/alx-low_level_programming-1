@@ -3,7 +3,7 @@
 /*
  * print_line - type void.
  * @n: number of times character should be printed
- * 
+ *
  * Description: print the character '_', then a new line
  * Return: void.
  */
@@ -20,7 +20,7 @@ void print_line(int n)
 		{
 			_putchar(95);
 			count++;
-		}	
+		}
 		_putchar('\n');
 	}
 }
