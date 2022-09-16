@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_diagonal - type void.
  * @n: number of times character should be printed
  *
