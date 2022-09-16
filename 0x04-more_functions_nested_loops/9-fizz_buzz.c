@@ -1,14 +1,11 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - type int.
- * @void: no argument required
- *
- * Description: print 1 - 100, if a multiple
- * of 3, print Fizz, a multiple of 5, print Buzz
+ * main - print 1 - 100, if a multiple of 3,
+ * print Fizz, if a multiple of 5, print Buzz
  * else, print the number.
- * Return: void.
+ *
+ * Return: 0 Always
  */
 
 int main(void)
@@ -19,10 +16,10 @@ int main(void)
 	{
 		if (i % 15 == 0)
 			printf("FizzBuzz");
-		else if (i % 3 == 0)
-			printf("Fizz");
 		else if (i % 5 == 0)
 			printf("Buzz");
+		else if (i % 3 == 0)
+			printf("Fizz");
 		else
 			printf("%i", i);
 		printf(" ");
