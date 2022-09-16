@@ -3,7 +3,7 @@
 /*
  * print_size - type void.
  * @size: size of the square
- * 
+ *
  * Description: prints a square, then a new line
  * Return: void.
  */
@@ -18,12 +18,12 @@ void print_square(int size)
 	{
 		for (count = 1; count <= size; count++)
 		{
-			for (counter = 1; counter <= size; counter++) 
+			for (counter = 1; counter <= size; counter++)
 			{
 				_putchar(35);
 			}
 			_putchar('\n');
-		}	
+		}
 
 	}
 }
