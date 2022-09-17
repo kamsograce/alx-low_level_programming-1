@@ -12,6 +12,6 @@ int main(void)
 	for (index = 0; index <= 7; index++)
 		_putchar(string + '0');
 	_putchar('\n');
-	
+
 	return (0);
 }
