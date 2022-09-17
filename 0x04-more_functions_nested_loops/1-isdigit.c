@@ -5,7 +5,6 @@
  * (0 through 9)
  *
  * @c: character to check.
- *
  * Return: returns 1 if True
  * 0 if otherwise
  */
