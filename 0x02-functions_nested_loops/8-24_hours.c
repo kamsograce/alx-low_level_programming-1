@@ -1,10 +1,8 @@
 #include "main.h"
+
 /**
- * jack_bauer - displays time
+ * jack_bauer - print time from "00:00" to "23:59"
  * @void: no argument to be passed
- *
- * Description: prints time form "00:00" to "23:59"
- * Return: 0 Always
  */
 void jack_bauer(void)
 {
@@ -37,5 +35,4 @@ void jack_bauer(void)
 		}
 		second++;
 	}
-
 }
