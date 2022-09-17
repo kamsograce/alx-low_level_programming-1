@@ -3,7 +3,7 @@
 /**
  * main - print the first 50 fibonacci numbers
  * followed by a new line
- * 
+ *
  * Return: 0 Always
  */
 
@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%lu, ", a);
 	printf("%lu", b);
-	
+
 	while (count <= 49)
 	{
 		printf(", ");
