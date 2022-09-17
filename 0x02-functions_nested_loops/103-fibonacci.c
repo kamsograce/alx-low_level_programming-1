@@ -1,9 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - print the sum of even fibonacci numbers < 4,000,000
- * @void: void argument
+ * followed by a new line
  *
- * Description: print sum, followed by a new line
  * Return: 0 Always
  */
 
@@ -23,4 +23,3 @@ int main(void)
 	return (0);
 
 }
-
