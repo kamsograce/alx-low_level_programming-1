@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * add - adds two values
+ * add - adds two integers
  * @n1: The first number to be added
  * @n2: The second number to be added
  * Return: returns the sum
