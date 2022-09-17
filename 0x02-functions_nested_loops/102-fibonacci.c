@@ -1,9 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - print the first 50 fibonacci numbers
- * @void: void argument
- *
- * Description: prints the numbers, followed by a new line
+ * followed by a new line
+ * 
  * Return: 0 Always
  */
 
@@ -14,6 +14,7 @@ int main(void)
 
 	printf("%lu, ", a);
 	printf("%lu", b);
+	
 	while (count <= 49)
 	{
 		printf(", ");
