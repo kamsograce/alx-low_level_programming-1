@@ -4,7 +4,7 @@
  * _islower - checks if the argument is in lower case
  * @c: char type
  *
- * Return: 1 if lowercase, 
+ * Return: 1 if lowercase,
  * 0 if not lowercase.
  */
 
