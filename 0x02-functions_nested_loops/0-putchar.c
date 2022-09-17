@@ -10,7 +10,7 @@ int main(void)
 	int index;
 
 	for (index = 0; index <= 7; index++)
-		_putchar(string + '0');
+		_putchar(string[index]);
 	_putchar('\n');
 
 	return (0);
