@@ -1,43 +1,25 @@
 #include "main.h"
-/**
- * rev_string - prints a reverse string
- *@s: A pointer to an int that will be changed
- *
- *Return: void
- */
 
+/**
+ * rev_string - prints a string in reverse, followed by a new line.
+ * @s: input string.
+ */
 void rev_string(char *s)
 {
-char *start_c, *end_c, c;
-int x, count;
-int length = 0;
+	char rev_str[100] = {0}; /*Making an array for the reverse str*/
+	char s_copy[100];	/*Making a copy of array s*/
+	int i = 0, j, k, index;
 
-for (x = 0; s[x]; x++)
-{
-length++;
-}
+	while (s[i] != 0)	/*finding the no of non-zero element*/
+	{
+		s_copy[i] = s[i];	/*duplicating char s**/
+		i++;
+	}
 
-count = length;
-
-start_c = s;
-end_c = s;
-
-for (x = 0; x < count - 1; x++)
-{
-end_c++;
-}
-
-
-for (x = 0; x < count / 2; x++)
-{
-
-
-c = *end_c;
-*end_c = *start_c;
-*start_c = c;
-
-
-start_c++;
-end_c--;
-}
+	index = i - 1;
+	for (j = index, k = 0; j >= 0; j--, k++)
+	{
+		rev_str[k] = s_copy[j];
+		*(s + k) = rev_str[k];	/*dereferencing*/
+	}
 }
