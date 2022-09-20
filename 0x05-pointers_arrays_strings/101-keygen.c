@@ -19,4 +19,5 @@ int main(void)
 		putchar(c);
 	}
 	putchar(2772 - sum);
-	r
+	return (0);
+}
